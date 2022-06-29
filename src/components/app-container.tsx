@@ -12,7 +12,7 @@ export default function AppContainer (props: Props) {
   return (
     <NavigationContainer>
       <NativeBaseProvider theme={theme}>
-        {props.children} 
+        {props.children}  
       </NativeBaseProvider>
     </NavigationContainer>
   )
